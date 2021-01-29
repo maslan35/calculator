@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calc">
+        <section class="screen">
+            0
+        </section>
+        <section class="calc-buttons">
+            <div class="calc-row">
+                <button class="double calc-button">C</button>
+                <button class="calc-button">←</button>
+                <button class="calc-button">÷</button>
+            </div>
+            <div class="calc-row">
+                <button class="calc-button">7</button>
+                <button class="calc-button">8</button>
+                <button class="calc-button">9</button>
+                <button class="calc-button">×</button>
+            </div>
+            <div class="calc-row">
+                <button class="calc-button">4</button>
+                <button class="calc-button">5</button>
+                <button class="calc-button">6</button>
+                <button class="calc-button">-</button>
+            </div>
+            <div class="calc-row">
+                <button class="calc-button">1</button>
+                <button class="calc-button">2</button>
+                <button class="calc-button">3</button>
+                <button class="calc-button">+</button>
+            </div>
+            <div class="calc-row">
+                <button class="triple calc-button">0</button>
+                <button class="calc-button">=</button>
+            </div>
+        </section>
+    </div>
+    <script src="./calculator.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyDYbMRJFvQTPuNRfGBv0ceWCrJSigkxf9k",
+        authDomain: "calculator-a392b.firebaseapp.com",
+        projectId: "calculator-a392b",
+        storageBucket: "calculator-a392b.appspot.com",
+        messagingSenderId: "740247317174",
+        appId: "1:740247317174:web:93dce42463d8e863391417"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+</body>
+</html>
